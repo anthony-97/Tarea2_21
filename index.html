@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <title>Mi primera página web</title>
+
+</head>
+<body background="fondo.jpg">
+<body>
+    <h1><center>Mi página web </center></h1>
+    <style type="text/css">
+  body {
+    color: yellow;
+    background-color: white}
+  </style>
+    <style type="text/css">
+  body {
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: yellow; }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  </style>
+    
+  <p><center>Explora el menú, presionando sobre la opción que más te interese</p>
+    
+    <style>
+.mainmenubtn {
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: purple;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Menu Principal</button>
+  <div class="dropdown-child">
+    <a href="cvPersonal.html">Curriculum Personal</a>
+    <a href="pFav.html">Pelicula Favorita</a>
+    <a href="vFav.html">Videojuego Favorito</a>
+    <a href="tutorial.html">Tutorial (Clases Java)</a>
+  </div>
+</div>
+
+</body>
+</html>
